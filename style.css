@@ -1,0 +1,189 @@
+
+/* ?Estilos para el Body */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F0F0F0;
+    color: #E7473C;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ?Estilos para el apartado de Header */
+.header {
+    position:relative;
+    height: 500px;
+    background: #F0F0F0;
+    color: #E7473C;
+}
+
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.header-content h1 {
+    font-size: 3.0rem;
+    margin: 0%;
+}
+
+.header-content p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-style: italic;
+}
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    margin-right: 40px;
+}
+/* ?Estilos para el apartado de Acerca de mi */
+.about {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    color: #F0F0F0;
+    background-color: #E7473C;
+}
+.about-content {
+    max-width: 1000px;
+    
+}
+.about-content h2 {
+    font-size: 2.0rem;
+    margin-bottom: 10px;
+}
+/* ?Estilos para el apartado de Hard y Soft skills*/
+.skills {
+    display:flex;
+    padding: 50px;
+    align-items:baseline;
+    justify-content: center; 
+    gap: 20px;
+}
+ul{
+    list-style-type:square;
+}
+.skills-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px; 
+}
+.image{
+    display:flex;
+    align-items:center;
+    justify-content: center; 
+    width: 200px;
+    height: 200px;
+    border-radius: auto;
+}
+/* ?Estilos para el apartado de lenguajes de dominio *//* Contenedor de experiencia */
+.experience {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.experience h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.exskill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logo-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+
+.exskill span {
+    flex: 1;
+    font-size: 1rem;
+    margin-right: 15px;
+}
+
+
+.progress-bar {
+    height: 15px;
+    background-color: #E7473C;
+    border-radius: 5px;
+    transition: width 0.4s ease;
+}
+/* ?Estilos para el apartado de portafolio */
+.porta-content h2 {
+    text-align: center;
+    color: #E7473C;
+    margin-bottom: 20px;
+    font-size: 24px; 
+    width: 100%;
+}
+.proyectos-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+}
+
+.proyecto {
+    background-color: #F0F0F0; 
+    border-radius: 8px;
+    padding: 20px; 
+    width: 250px; 
+    text-align: center; 
+}
+
+.proyecto p {
+    margin: 0; 
+    font-size: 16px;
+}
+
+/* ?Estilos para el apartado de Contacto */
+.Contacto {
+    background-color: #E7473C; 
+    padding: 20px; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.Contacto h2 {
+    text-align: center;
+    color: #F0F0F0;
+    margin-bottom: 20px;
+    font-size: 24px; 
+    width: 100%;
+}
+
+.contacto-info {
+    display: inline-flex; 
+    align-items: center; 
+    margin: 10px;
+    padding: 10px; 
+    background-color: #F0F0F0; 
+    border-radius: 5px; 
+}
+
+.logo-contacto {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 15px;
+}
+
+.contacto-info a {
+    display: flex; 
+    align-items: center;
+    text-decoration: none; 
+    color: inherit;
+}
